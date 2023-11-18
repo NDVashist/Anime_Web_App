@@ -46,6 +46,56 @@ const myMovies = [
     overview:
       "After his hometown is destroyed and his mother is killed, young Eren Yeager vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
   },
+  {
+    title: "One Piece",
+    img: "./../src/one_piece_p1.jpg",
+
+    overview:
+      "Follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure ever left by the legendary Pirate, Gol D Roger. The famous mystery treasure named 'One Piece'.",
+
+    vote_average: 8.7,
+  },
+  {
+    title: "Bleach",
+    img: "./naruto_p2.jpg",
+    overview:
+      "High school student Ichigo Kurosaki, who has the ability to see ghosts, gains soul reaper powers from Rukia Kuchiki and sets out to save the world from 'Hollows'.",
+
+    vote_average: 8.1,
+  },
+
+  {
+    title: "Attack on Titan",
+    img: "./attack_on_titan_p1.jpg",
+
+    overview:
+      "After his hometown is destroyed and his mother is killed, young Eren Yeager vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
+  },
+  {
+    title: "One Piece",
+    img: "./../src/one_piece_p1.jpg",
+
+    overview:
+      "Follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure ever left by the legendary Pirate, Gol D Roger. The famous mystery treasure named 'One Piece'.",
+
+    vote_average: 8.7,
+  },
+  {
+    title: "Bleach",
+    img: "./naruto_p2.jpg",
+    overview:
+      "High school student Ichigo Kurosaki, who has the ability to see ghosts, gains soul reaper powers from Rukia Kuchiki and sets out to save the world from 'Hollows'.",
+
+    vote_average: 8.1,
+  },
+
+  {
+    title: "Attack on Titan",
+    img: "./attack_on_titan_p1.jpg",
+
+    overview:
+      "After his hometown is destroyed and his mother is killed, young Eren Yeager vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
+  },
 
 
 ];
@@ -129,8 +179,8 @@ async function getMovies(url) {
   if (search.value && search.value !== "") {
     searchMovies(data.results);
   } else {
-    // showRecommended(data.results);
-    showMyMoviess(myMovies);
+    showRecommended(data.results);
+    // showMyMoviess(myMovies);
     // searchMovies(data.results);
   }
 
@@ -179,7 +229,7 @@ function showRecommended(movies) {
     } else {
       movieElement.classList.add("movie-s");
       movieElement.innerHTML = ` 
-            <img src="./one_piece_p1.jpg" alt="${title}">
+            <img src="./../src/one_piece_p1.jpg" alt="${title}">
             <div class="movie-info">
                  <h3>${title}</h3>
                  <span class="vote">★ ${vote_average}</span>

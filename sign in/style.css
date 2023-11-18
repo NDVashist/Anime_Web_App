@@ -34,6 +34,7 @@ body{
     background-color: rgba(0,0,0,0.4);
     padding: 20px 40px;
     border-radius: 5px;
+    z-index: -2;
 
 }
 .container h1 {
@@ -67,7 +68,7 @@ body{
     color: #fff ;
 }
 .btn:focus{
-    outline: o;
+    outline: 0;
 
 }
 
@@ -77,7 +78,12 @@ body{
 }
 .text {
     margin-top: 30px ;
-}
+    color: #fff;
+
+
+    /* pointer-events: none; Disable pointer events */
+    /* opacity: 0.6;          /* Set transparency (for mouse-over effects on images) */
+} 
 
 .form-control {
     position: relative;
@@ -100,11 +106,15 @@ body{
 .form-control  input:valid {
     outline: 0;
     border-color: black;
+    z-index: 2;
+    background-color: transparent;
 }
 .form-control label{
     position: absolute;
     bottom:5px;
     left: 0;
+    z-index: -1; /* Set a higher z-index value */
+
 
 }
 
@@ -112,7 +122,7 @@ body{
     display: inline-block;
     top: 15px;
     min-width:5px;
-    transition: 0.3s cubic-bezier(0.68,);
+    /* transition: 0.3s cubic-bezier(0.68,); */
 
 }
 .form-control input:focus + label span,
