@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image: url(signUpback.jpg);
+    background-image: url("./../src/signUpback.jpg");
     background-size:cover;
     color: #fff;
     font-family: 'muli', sans-serif;

@@ -71,7 +71,7 @@ body{
 
 
 .hero{
-   background-image:url(main_background.jpg);
+   background-image:url("./../src/main_background.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    background-position: bottom center;
