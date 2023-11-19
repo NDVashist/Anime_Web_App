@@ -72,7 +72,7 @@ body {
         width: 100%;
         height: 100%;
     }
-    iframe{
+    video{
         aspect-ratio: 16/9;
         width: 100%;
     }
@@ -81,3 +81,23 @@ body {
         display: none;
     }
 }
+
+
+#scroll::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(14, 14, 14, 0.3);
+	background-color: #070707;
+}
+
+#scroll::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+    scroll-radius: 10px;
+}
+
+#scroll::-webkit-scrollbar-thumb
+{
+	background-color: rgb(137, 18, 9, 0.3);
+}
+

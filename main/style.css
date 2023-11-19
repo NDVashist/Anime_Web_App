@@ -161,7 +161,7 @@ body{
     width: 160vw;
     height: 70vh;
 }
-iframe{
+video{
     aspect-ratio: 16/9;
     width: 80vw;
     height: 100%;

@@ -32,7 +32,7 @@ const myMovies = [
   },
   {
     title: "Bleach",
-    img: "./naruto_p2.jpg",
+    img: "./../src/one_piece_p1.jpg",
     overview:
       "High school student Ichigo Kurosaki, who has the ability to see ghosts, gains soul reaper powers from Rukia Kuchiki and sets out to save the world from 'Hollows'.",
 
@@ -41,61 +41,104 @@ const myMovies = [
 
   {
     title: "Attack on Titan",
-    img: "./attack_on_titan_p1.jpg",
-
-    overview:
-      "After his hometown is destroyed and his mother is killed, young Eren Yeager vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
-  },
-  {
-    title: "One Piece",
     img: "./../src/one_piece_p1.jpg",
 
     overview:
-      "Follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure ever left by the legendary Pirate, Gol D Roger. The famous mystery treasure named 'One Piece'.",
-
-    vote_average: 8.7,
-  },
-  {
-    title: "Bleach",
-    img: "./naruto_p2.jpg",
-    overview:
-      "High school student Ichigo Kurosaki, who has the ability to see ghosts, gains soul reaper powers from Rukia Kuchiki and sets out to save the world from 'Hollows'.",
-
-    vote_average: 8.1,
-  },
-
-  {
-    title: "Attack on Titan",
-    img: "./attack_on_titan_p1.jpg",
-
-    overview:
       "After his hometown is destroyed and his mother is killed, young Eren Yeager vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
   },
+  
   {
-    title: "One Piece",
+    title: "Death Note",
     img: "./../src/one_piece_p1.jpg",
-
     overview:
-      "Follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure ever left by the legendary Pirate, Gol D Roger. The famous mystery treasure named 'One Piece'.",
-
-    vote_average: 8.7,
+      "An intelligent high school student goes on a secret crusade to eliminate criminals from the world after discovering a notebook capable of killing anyone whose name is written into it.",
   },
   {
-    title: "Bleach",
-    img: "./naruto_p2.jpg",
+    title: "Fullmetal Alchemist: Brotherhood",
+    img: "./../src/one_piece_p1.jpg",
     overview:
-      "High school student Ichigo Kurosaki, who has the ability to see ghosts, gains soul reaper powers from Rukia Kuchiki and sets out to save the world from 'Hollows'.",
-
-    vote_average: 8.1,
+      "Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes awry and leaves them in damaged physical forms.",
   },
-
   {
-    title: "Attack on Titan",
-    img: "./attack_on_titan_p1.jpg",
-
+    title: "Hunter x Hunter",
+    img: "./../src/one_piece_p1.jpg",
     overview:
-      "After his hometown is destroyed and his mother is killed, young Eren Yeager vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
+      "Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness. With his friends and his potential, he seeks for his father who left him when he was younger.",
   },
+
+  { 
+    title:"dragon ball z",
+    img:"./../src/one_piece_p1.jpg",
+    overview:"After learning that he is from another planet, a warrior named Goku and his friends are prompted to defend it from an onslaught of extraterrestrial enemies.",
+  },
+  {
+    title: "demon slayer",
+    img: "./../src/one_piece_p1.jpg",
+    overview:
+      "A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.",
+  },
+  {
+    title:"baki hanma",
+    img:"./../src/one_piece_p1.jpg",
+    overview:"The protagonist, Baki Hanma, trains with an intense focus to become strong enough to surpass his father, Yujiro Hanma, the strongest fighter in the world.",
+  },
+  {
+    title:"black clover",
+    img:"./../src/one_piece_p1.jpg",
+    overview:"Asta and Yuno were abandoned together at the same church and have been inseparable since. As children, they promised that they would compete against each other to see who would become the next Emperor Magus.",
+  },
+  {
+    title:"my hero academia",
+    img:"./../src/one_piece_p1.jpg",
+    overview:"Set in a world where superpowers (called Quirks) have become commonplace, the story follows Izuku Midoriya, a boy who was born without a Quirk but still dreams of becoming a superhero himself",
+  },
+  {
+    title:"One punch man",
+    img:"./../src/one_piece_p1.jpg",
+    overview:"Saitama, the protagonist, is an exceptionally powerful hero who easily defeats the monsters or other villains with a single punch. However, due to his overwhelming strength, Saitama has become bored with his powers and is constantly trying to find stronger opponents who can fight him"
+
+  },
+  {
+    title:"Tokyo revengers",
+    img:"./../src/one_piece_p1.jpg",
+    overview:"The story follows Takemichi Hanagaki, a 26-year-old temp worker with a gloomy life, who learns that his ex-girlfriend, Hinata Tachibana, has died in a dispute involving the Tokyo Manji Gang.",
+  },
+  {
+    title:"Jujutsu kaisen",
+    img:"./../src/one_piece_p1.jpg",
+    overview:"The story follows high school student Yuji Itadori as he joins a secret organization of Jujutsu Sorcerers in order to kill a powerful Curse named Ryomen Sukuna, of whom Yuji becomes the host.",
+
+  },
+  {
+    title:"chainsaw man",
+    img:"./../src/one_piece_p1.jpg",
+    overview:"When his father died, Denji was stuck with a huge debt and no way to pay it back. Thanks to a Devil dog he saved named Pochita, he's able to survive through odd jobs and killing Devils for the Yakuza. Pochita's chainsaw powers come in handy against these powerful demons."
+  },
+  {
+    title:"lookism",
+    img:"./../src/one_piece_p1.jpg",
+    overview:"A miracle is about to happen to an unattractive loner guy.",
+
+  },
+  {
+    title:"dr stone",
+    img:"./../src/one_piece_p1.jpg",
+    overview:"One fateful day, all of humanity was petrified by a blinding flash of light. After several millennia, high schooler Taiju awakens and finds himself lost in a world of statues. However, he's not alone! His science-loving friend Senku's been up and running for a few months and he's got a grand plan in mind, to kickstart civilization with the power of science!",
+  },
+  {
+    title:"clannad",
+    img:"./../src/one_piece_p1.jpg",
+    overview: "The story follows the life of Tomoya Okazaki, from adolescence to adulthood. As an average high school student, he meets many people in his last year at school, including five girls, whose individual problems he helps resolve, and his life is further detailed after graduating from high school.",
+  },
+  {
+    title:"yu yu hakusho: ghost files",
+    img:"./../src/one_piece_p1.jpg",
+    overview:"The story of Yu Yu Hakusho follows Yusuke Urameshi, a teenage delinquent who loses his life when he is hit by a car trying to save a child's life. After meeting the ruler of the Underworld, the Spirit World, Yusuke is given another chance to come back to life.",
+  },
+  // {
+  //   title
+
+  // }
 
 
 ];
@@ -179,8 +222,8 @@ async function getMovies(url) {
   if (search.value && search.value !== "") {
     searchMovies(data.results);
   } else {
-    showRecommended(data.results);
-    // showMyMoviess(myMovies);
+    // showRecommended(data.results);
+    showMyMoviess(myMovies);
     // searchMovies(data.results);
   }
 
