@@ -14,7 +14,7 @@ getMovies(API_URL);
 const myMovies = [
   {
     title: "Naruto",
-    img: "https://image.tmdb.org/t/p/w1280/mpFZiRihCsPDdZ1Ef69WIengKh2.jpg",
+    img: "./../src/naruto.jpg",
 
     overview:
       "Naruto Uzumaki, a mischievous adolescent ninja, struggles as he searches for recognition and dreams of becoming the Hokage, the village's leader and strongest ninja.",
@@ -32,7 +32,7 @@ const myMovies = [
   },
   {
     title: "Bleach",
-    img: "./../src/one_piece_p1.jpg",
+    img: "./../src/bleach.jpg",
     overview:
       "High school student Ichigo Kurosaki, who has the ability to see ghosts, gains soul reaper powers from Rukia Kuchiki and sets out to save the world from 'Hollows'.",
 
@@ -41,7 +41,7 @@ const myMovies = [
 
   {
     title: "Attack on Titan",
-    img: "./../src/one_piece_p1.jpg",
+    img: "./../src/aot.png",
 
     overview:
       "After his hometown is destroyed and his mother is killed, young Eren Yeager vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
@@ -49,19 +49,19 @@ const myMovies = [
   
   {
     title: "Death Note",
-    img: "./../src/one_piece_p1.jpg",
+    img: "./../src/Deathnote.jpg",
     overview:
       "An intelligent high school student goes on a secret crusade to eliminate criminals from the world after discovering a notebook capable of killing anyone whose name is written into it.",
   },
   {
     title: "Fullmetal Alchemist: Brotherhood",
-    img: "./../src/one_piece_p1.jpg",
+    img: "./../src/Fullmetal Alchemist Brotherhood.jpg",
     overview:
       "Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes awry and leaves them in damaged physical forms.",
   },
   {
     title: "Hunter x Hunter",
-    img: "./../src/one_piece_p1.jpg",
+    img: "./../src/hunterXhunter.jpg",
     overview:
       "Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness. With his friends and his potential, he seeks for his father who left him when he was younger.",
   },
@@ -73,7 +73,7 @@ const myMovies = [
   },
   {
     title: "demon slayer",
-    img: "./../src/one_piece_p1.jpg",
+    img: "./../src/demon_p4.jpg",
     overview:
       "A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.",
   },
