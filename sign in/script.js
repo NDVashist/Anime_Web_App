@@ -30,7 +30,7 @@ async function isValidUser(){
                alert("password is incorrect");
           }
      }catch(err){
-          console.log(err);
+          alert("user not found");
      }
      
 }
