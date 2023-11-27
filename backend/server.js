@@ -33,11 +33,28 @@ app.get('/userdata/:username', (req, res) => {
     const username = req.params.username;
     connection.query(`SELECT password FROM users WHERE username='${username}'`, (err, result) => {
         if (err) {
-            console.error('Error while fetching user data: ', err);
+            // console.error('Error while fetching user data: ', err);
             res.status(500).send('Internal Server Error');
         } else {
-            console.log('User data fetched successfully!');
-            console.log(result);
+            // console.log('User data fetched successfully!');
+            // console.log(result);
+            res.status(200).send(result);
+        }
+    });
+});
+
+app.post('/saveuser', (req, res) => {
+    const username = req.body.username;
+    const password = req.body.password;
+    const email = req.body.email;
+    console.log(`username: ${username}, password: ${password}, email: ${email}`);
+    connection.query(`INSERT INTO users VALUES ('${username}', '${email}', '${password}')`, (err, result) => {
+        if (err) {
+            // console.error('Error while saving user data: ', err);
+            res.status(500).send(err);
+        } else {
+            // console.log('User data saved successfully!');
+            // console.log(result);
             res.status(200).send(result);
         }
     });
