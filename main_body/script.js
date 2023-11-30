@@ -45,6 +45,8 @@ const myMovies = [
 
     overview:
       "After his hometown is destroyed and his mother is killed, young Eren Yeager vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.",
+    vote_average: 8.9,
+  
   },
   
   {
@@ -52,94 +54,106 @@ const myMovies = [
     img: "./../src/Deathnote.jpg",
     overview:
       "An intelligent high school student goes on a secret crusade to eliminate criminals from the world after discovering a notebook capable of killing anyone whose name is written into it.",
+    vote_average: 9.0,
   },
   {
     title: "Fullmetal Alchemist: Brotherhood",
     img: "./../src/Fullmetal Alchemist Brotherhood.jpg",
     overview:
       "Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes awry and leaves them in damaged physical forms.",
+    vote_average: 9.1,  
   },
   {
     title: "Hunter x Hunter",
     img: "./../src/hunterXhunter.jpg",
     overview:
       "Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness. With his friends and his potential, he seeks for his father who left him when he was younger.",
+    vote_average: 8.9,
   },
 
   { 
     title:"dragon ball z",
-    img:"./../src/one_piece_p1.jpg",
+    img:"./../src/Dragon-Ball-Z.jpg",
     overview:"After learning that he is from another planet, a warrior named Goku and his friends are prompted to defend it from an onslaught of extraterrestrial enemies.",
+    vote_average: 8.7,
   },
   {
     title: "demon slayer",
     img: "./../src/demon_p4.jpg",
     overview:
       "A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.",
+    vote_average: 8.7,
   },
   {
     title:"baki hanma",
-    img:"./../src/one_piece_p1.jpg",
+    img:"./../src/baki-anime.jpg",
     overview:"The protagonist, Baki Hanma, trains with an intense focus to become strong enough to surpass his father, Yujiro Hanma, the strongest fighter in the world.",
+    vote_average: 8.6,
   },
   {
     title:"black clover",
-    img:"./../src/one_piece_p1.jpg",
+    img:"./../src/black clover.jpg",
     overview:"Asta and Yuno were abandoned together at the same church and have been inseparable since. As children, they promised that they would compete against each other to see who would become the next Emperor Magus.",
+    vote_average: 8.6,
   },
   {
     title:"my hero academia",
-    img:"./../src/one_piece_p1.jpg",
+    img:"./../src/my-hero-academia.jpg",
     overview:"Set in a world where superpowers (called Quirks) have become commonplace, the story follows Izuku Midoriya, a boy who was born without a Quirk but still dreams of becoming a superhero himself",
+    vote_average: 8.5,
   },
   {
     title:"One punch man",
-    img:"./../src/one_piece_p1.jpg",
-    overview:"Saitama, the protagonist, is an exceptionally powerful hero who easily defeats the monsters or other villains with a single punch. However, due to his overwhelming strength, Saitama has become bored with his powers and is constantly trying to find stronger opponents who can fight him"
+    img:"./../src/OnePunchMan.png",
+    overview:"Saitama, the protagonist, is an exceptionally powerful hero who easily defeats the monsters or other villains with a single punch. However, due to his overwhelming strength, Saitama has become bored with his powers and is constantly trying to find stronger opponents who can fight him",
+    vote_average: 8.8,
 
   },
   {
     title:"Tokyo revengers",
-    img:"./../src/one_piece_p1.jpg",
+    img:"./../src/tokyoRevengers.jpg",
     overview:"The story follows Takemichi Hanagaki, a 26-year-old temp worker with a gloomy life, who learns that his ex-girlfriend, Hinata Tachibana, has died in a dispute involving the Tokyo Manji Gang.",
+    vote_average: 8.5,
   },
   {
     title:"Jujutsu kaisen",
-    img:"./../src/one_piece_p1.jpg",
+    img:"./../src/jujutsu.jpg",
     overview:"The story follows high school student Yuji Itadori as he joins a secret organization of Jujutsu Sorcerers in order to kill a powerful Curse named Ryomen Sukuna, of whom Yuji becomes the host.",
+    vote_average: 8.8,
 
   },
   {
     title:"chainsaw man",
-    img:"./../src/one_piece_p1.jpg",
-    overview:"When his father died, Denji was stuck with a huge debt and no way to pay it back. Thanks to a Devil dog he saved named Pochita, he's able to survive through odd jobs and killing Devils for the Yakuza. Pochita's chainsaw powers come in handy against these powerful demons."
+    img:"./../src/chainsaw.jpg",
+    overview:"When his father died, Denji was stuck with a huge debt and no way to pay it back. Thanks to a Devil dog he saved named Pochita, he's able to survive through odd jobs and killing Devils for the Yakuza. Pochita's chainsaw powers come in handy against these powerful demons.",
+    vote_average: 8.5,
   },
   {
     title:"lookism",
-    img:"./../src/one_piece_p1.jpg",
+    img:"./../src/lookism.jpg",
     overview:"A miracle is about to happen to an unattractive loner guy.",
+    vote_average: 8.1,
 
   },
   {
     title:"dr stone",
-    img:"./../src/one_piece_p1.jpg",
+    img:"./../src/drStone.jpeg",
     overview:"One fateful day, all of humanity was petrified by a blinding flash of light. After several millennia, high schooler Taiju awakens and finds himself lost in a world of statues. However, he's not alone! His science-loving friend Senku's been up and running for a few months and he's got a grand plan in mind, to kickstart civilization with the power of science!",
+    vote_average: 8.6,
   },
   {
     title:"clannad",
-    img:"./../src/one_piece_p1.jpg",
+    img:"./../src/Clanned.png",
     overview: "The story follows the life of Tomoya Okazaki, from adolescence to adulthood. As an average high school student, he meets many people in his last year at school, including five girls, whose individual problems he helps resolve, and his life is further detailed after graduating from high school.",
+    vote_average: 8.5,
   },
   {
     title:"yu yu hakusho: ghost files",
-    img:"./../src/one_piece_p1.jpg",
+    img:"./../src/group-photo-of-yuyu-.jpg",
     overview:"The story of Yu Yu Hakusho follows Yusuke Urameshi, a teenage delinquent who loses his life when he is hit by a car trying to save a child's life. After meeting the ruler of the Underworld, the Spirit World, Yusuke is given another chance to come back to life.",
+    vote_average: 8.4,
   },
-  // {
-  //   title
-
-  // }
-
+  
 
 ];
 
